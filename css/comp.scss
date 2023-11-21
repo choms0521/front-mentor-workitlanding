@@ -1,0 +1,13 @@
+.basic-btn {
+  margin-top: 40px;
+  padding: 15px 20px;
+  background-color: #44ffa1;
+  border: none;
+  font-weight: bold;
+  font-size: 1.3rem;
+
+  &:hover {
+    background-color: skyblue;
+    color: white;
+  }
+}

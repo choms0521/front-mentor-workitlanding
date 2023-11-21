@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+.footer-wrapper {
+  width: 100%;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.footer-box {
+  width: 115px;
+  height: 102px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-box > img {
+  width: 90%;
+}
+
+.sns-images {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}/*# sourceMappingURL=footer.css.map */

@@ -1,0 +1,108 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+.introduction {
+  width: 100%;
+  background-color: #fcf8ff;
+  padding: 0 150px;
+  position: relative;
+  background-color: #fcf8ff;
+  padding: 10px;
+}
+.introduction::after {
+  display: block;
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 48px;
+  background-image: url("../assets/images/backgroundcurvelight.svg");
+  background-color: white;
+}
+
+.intro-contents {
+  margin-top: 250px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 0px 100px;
+  margin-bottom: 100px;
+}
+
+.intro-content--box {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+}
+.intro-content--box .intro-number {
+  width: 56px;
+  height: 56px;
+  border-radius: 28px;
+  text-align: center;
+  line-height: 56px;
+  border: 1px solid black;
+}
+
+.intro-content--wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+}
+.intro-content--wrapper .intro-title {
+  color: #24053E;
+  font-size: 1.5rem;
+}
+.intro-content--wrapper .intro-content {
+  margin-top: 20px;
+  color: #24053E;
+}
+
+@media screen and (max-width: 1000px) {
+  .intro-contents {
+    flex-direction: column;
+    align-items: center;
+  }
+  .intro-content--box {
+    width: 100%;
+    flex-direction: row;
+    margin-bottom: 30px;
+  }
+  .intro-content--wrapper {
+    flex: 1;
+    margin-left: 48px;
+    margin-top: 0px;
+    text-align: left;
+  }
+}
+@media screen and (max-width: 600px) {
+  .intro-contents {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 150px;
+  }
+  .intro-content--box {
+    width: 100%;
+    flex-direction: column;
+    margin-bottom: 30px;
+  }
+  .intro-content--wrapper {
+    flex: 1;
+    margin-top: 30px;
+    text-align: center;
+    margin-left: 0px;
+  }
+}/*# sourceMappingURL=introduction.css.map */
